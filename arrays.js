@@ -1,3 +1,7 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
-const 
+function addElementToBeginningOfArray(arr, element) {
+  return [element, ...arr]
+}
+
+function 
